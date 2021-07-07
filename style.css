@@ -477,6 +477,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #000!important;
 }
 
 .icon-lg {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -705,7 +706,8 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: 700;
     line-height: 1.4em;
 }
 
@@ -737,6 +739,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -775,16 +778,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #39008A!important;
     color: #FFFFFF!important;
 }
 
@@ -824,6 +827,80 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+.citation {
+    border-left: 3px solid #000;
+}
+
+.but {
+    padding-bottom: 20px;
+}
+
+.col-sm-6 {
+    padding: 0 30px;
+}
+
+.follow {
+    font-size: 20px;
+    color: #000!important;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.design {
+    font-size: 16px;
+    margin: 20px auto 0 auto;
+    color: #000!important;
+}
+
+.partner-title {
+    font-size: 20px;
+    color: #000!important;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.partner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+}
+
+.partner-site {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    color: #000!important;
+}
+
+.partner-site:hover {
+    font-weight: 700;
+    color: #39008A;
+}
+
+/* Contact */
+
+.contact-title {
+    color: #000!important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contact-text {
+    color: #000!important;
+    font-size: 18px;
+}
+
+.send-message, .coordonnees {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
