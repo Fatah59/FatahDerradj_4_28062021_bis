@@ -828,6 +828,8 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+/* Modification CSS index*/ 
+
 .citation {
     border-left: 3px solid #000;
 }
@@ -882,7 +884,7 @@ h4 {
     color: #39008A;
 }
 
-/* Contact */
+/* Modification CSS contact */
 
 .contact-title {
     color: #000!important;
